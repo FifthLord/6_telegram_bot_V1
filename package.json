@@ -1,24 +1,25 @@
 {
-  "name": "6_telegram_bot_V1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FifthLord/6_telegram_bot_V1.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FifthLord/6_telegram_bot_V1/issues"
-  },
-  "homepage": "https://github.com/FifthLord/6_telegram_bot_V1#readme",
-  "dependencies": {
-    "node-telegram-bot-api": "^0.59.0",
-    "nodemon": "^2.0.20"
-  }
+   "name": "6_telegram_bot_V1",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "dev": "nodemon index.js",
+      "start": "node index.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FifthLord/6_telegram_bot_V1.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/FifthLord/6_telegram_bot_V1/issues"
+   },
+   "homepage": "https://github.com/FifthLord/6_telegram_bot_V1#readme",
+   "dependencies": {
+      "node-telegram-bot-api": "^0.59.0",
+      "nodemon": "^2.0.20"
+   }
 }
